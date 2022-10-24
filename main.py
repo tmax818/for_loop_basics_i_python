@@ -9,7 +9,8 @@ for i in range(1001):
     if i % 5 == 0:
         print(i)
 
-## TODO Counting, the Dojo Way - Print integers 1 to 100. If divisible by 5, print "Coding" instead. If divisible by 10, print "Coding Dojo".
+# # TODO Counting, the Dojo Way - Print integers 1 to 100. If divisible by 5, print "Coding" instead. If divisible by
+#  10, print "Coding Dojo".
 
 for i in range(101):
     if i % 10 == 0:
@@ -23,7 +24,7 @@ for i in range(101):
 
 total = 0
 
-for i in range(500001):
+for i in range(1, 500001, 2):
     total += i
 
 print(total)
@@ -42,6 +43,6 @@ lowNum = 2
 highNum = 9
 mult = 3
 
-for i in range(highNum + 1):
+for i in range(lowNum, highNum + 1):
     if i % mult == 0:
         print(i)
